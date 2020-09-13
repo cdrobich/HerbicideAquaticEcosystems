@@ -1,8 +1,8 @@
-Station,Park,Time,GlyphWat,AMPwat,GlyphSed,AMPsed,,,,,,
-Phragmites,Crown Marsh,Pre-treatment,0,0,0,0,,,,,,
-Pond,Crown Marsh,Pre-treatment,0,0,0,0,,,,,,
-0 m,Crown Marsh,Pre-treatment,0,0,0,0,,,,,,
-10 m,Crown Marsh,Pre-treatment,0,0,0,0,,,,,,
+Station,Park,Time,GlyphWat,AMPwat,GlyphSed,AMPsed
+Phragmites,Crown Marsh,Pre-treatment,0,0,0,0,
+Pond,Crown Marsh,Pre-treatment,0,0,0,0
+0 m,Crown Marsh,Pre-treatment,0,0,0,0
+10 m,Crown Marsh,Pre-treatment,0,0,0,0
 50 m,Crown Marsh,Pre-treatment,0,0,0,0,,,,,,
 100 m,Crown Marsh,Pre-treatment,0,0,0,0,,,,,,
 150 m,Crown Marsh,Pre-treatment,0,0,0,0,,,,,,
