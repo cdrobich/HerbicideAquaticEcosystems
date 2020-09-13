@@ -517,21 +517,31 @@ AEHw30
 
 # Glyphosate panel
 
-glyphosate.boxplots <- grid.arrange(arrangeGrob(Watb, Sedb, top = "Pre-treatment"),
-                                    arrangeGrob(Wat24, Sed24, top = "24 hours"),
-                                    arrangeGrob(Wat30, Sed30, top = "> 20 Days"),
+grid.arrange(arrangeGrob(Watb, Sedb, top = "Pre-treatment"),
+             arrangeGrob(Wat24, Sed24, top = "24 hours"),
+             arrangeGrob(Wat30, Sed30, top = "> 20 Days"),
                                     ncol = 3)
 
-glyphosate.boxplots
 
-ggsave("Glyphosate_max_boxplots.JPEG", glyphosate.boxplots)
+
+glyphosate.boxplots <- ggarrange(Watb, Wat24, Wat30,
+          Sedb, Sed24, Sed30,
+          nrow = 2,
+          ncol = 3,
+          labels = c("Pre-2018 Treatment", "Within 24 hours", "> 20 Days"),
+          font.label = list(size = 13, face = "plain"),
+          hjust = c(-0.6,-0.7, -1),
+          vjust = 2)
+          
+          
+ggsave("Glyphosate_max_boxplots.tiff", glyphosate.boxplots,
+       dpi = 300)
 
 ## AMPA panel (SM 1)
 AMPA.max.boxplots <- grid.arrange(arrangeGrob(baseAMPw, AMPAb, top = "Pre-treatment"),
                                   arrangeGrob(AMPw24, AMPA24, top = "24 hours"),
                                   arrangeGrob(AMPAwat30, AMPAs30, top = ">20 Days"),
                                   ncol = 3)
-
 
 ## Aquasurf panel
 AEH.max.boxplots <- grid.arrange(arrangeGrob(baseAEHw, baseAEH, top = "Pre-treatment"),
