@@ -1,11 +1,7 @@
-
-setwd("D:/PhD/Projects/Glyphosate and aquatic ecosystems/Data & Analyses")
-
-data <- read.csv("Transects.csv") #took the average of every pond measurement
-
 library(tidyverse)
 library(gridExtra)
 
+data <- read.csv("Data/Transects.csv") #took the average of every pond measurement
 
 glimpse(data)
 colnames(data)
@@ -15,7 +11,7 @@ unique(data$Station)
 
 #### Glyphosate in Water ####
 
-### just pre-treatment data
+### just pre-treatment data ####
 
 base <- subset(data, Time == "Pre-treatment", select = Station:AMPsed)
 
@@ -58,7 +54,7 @@ AMPAWatPre <- ggplot(data = base, aes(x = Station, y = AMPwat, group = 1)) +
 AMPAWatPre
 
 
-#### within 24 hours
+#### within 24 hours #######
 
 Hour24 <- subset(data, Time == "24 hour", select = Station:AMPsed)
 
@@ -99,7 +95,7 @@ AMPAWat24 <- ggplot(data = Hour24, aes(x = Station, y = AMPwat, group = 1)) +
 AMPAWat24
 
 
-### >20 Days after ###
+#### >20 Days after ####
 
 Day20 <- subset(data, Time == ">20 day", select = Station:AMPsed)
 
@@ -139,7 +135,7 @@ AMPAWat20 <- ggplot(data = Day20, aes(x = Station, y = AMPwat, group = 1)) +
 
 AMPAWat20
 
-### One year after
+#### One year after ####
 
 OneYr <- subset(data, Time == "One year", select = Station:AMPsed)
 
@@ -180,9 +176,10 @@ AMPAWatOneyr <- ggplot(data = OneYr, aes(x = Station, y = AMPwat, group = 1)) +
 
 AMPAWatOneyr
 
+
 ##### Glyphosate in Sediment #####
 
-### just pre-treatment data
+### just pre-treatment data ####
 
 base <- subset(data, Time == "Pre-treatment", select = Station:AMPsed)
 
@@ -222,7 +219,7 @@ AMPASedPre <- ggplot(data = base, aes(x = Station, y = AMPsed, group = 1)) +
 
 AMPASedPre
 
-#### within 24 hours
+#### within 24 hours ####
 
 Hour24 <- subset(data, Time == "24 hour", select = Station:AMPsed)
 
@@ -262,7 +259,7 @@ AMPASed24 <- ggplot(data = Hour24, aes(x = Station, y = AMPsed, group = 1)) +
 
 AMPASed24
 
-### >20 Days after ###
+### >20 Days after ####
 
 Day20 <- subset(data, Time == ">20 day", select = Station:AMPsed)
 
@@ -302,7 +299,7 @@ AMPASed20 <- ggplot(data = Day20, aes(x = Station, y = AMPsed, group = 1)) +
 
 AMPASed20
 
-### One year after
+### One year after ####
 
 OneYr <- subset(data, Time == "One year", select = Station:AMPsed)
 

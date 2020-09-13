@@ -8,7 +8,7 @@ library(gridExtra)
 
 #### Glyphosate in Sediment boxplots ####
 
-sediment <- read.csv("Sediment_maxexp.csv")
+sediment <- read.csv("Data/Sediment_maxexp.csv")
 
 ## Examine Data
 
@@ -307,7 +307,7 @@ AEH30
 
 ####### Glyphosate in water boxplots ##########
 
-water <- read.csv("Water_maxexp.csv")
+water <- read.csv("Data/Water_maxexp.csv")
 
 colnames(water)
 glimpse(water)
