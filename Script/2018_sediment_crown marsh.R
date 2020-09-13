@@ -4,6 +4,7 @@ data <- read.csv("Data/2018_CrownMarsh.csv") #took the average of every pond mea
 
 library(tidyverse)
 library(gridExtra)
+library(ggpubr)
 
 
 glimpse(data)
@@ -91,7 +92,14 @@ Sed20
 
 # Glyphosate panel
 
-grid.arrange(arrangeGrob(SedPre, top = "Pre-2018 Treatment"),
-             arrangeGrob(Sed24, top = "Within 24 hours"),
-             arrangeGrob(Sed20, top = ">20 Days"),
-             ncol = 3)
+crown.marsh <- ggarrange(SedPre, Sed24, Sed20,
+          ncol = 3,
+          labels = c("Pre-2018 Treatment", "Within 24 hours", "> 20 Days"),
+          font.label = list(size = 13, face = "plain"),
+          hjust = c(-0.7,-0.9, -1.3),
+          vjust = 2)
+  
+crown.marsh
+
+ggsave("Figures/Crown_Sedimet_transect.tiff", crown.marsh,
+       dpi = 300)
