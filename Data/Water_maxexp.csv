@@ -1,0 +1,64 @@
+Marsh,Sample,Year,Treatment,Time,Transect,Glyphosate,AMPA,AEH
+Turkey Point,Water,2018,Herbicide,>20 days,0,0,0,0
+Turkey Point,Water,2018,Herbicide,>20 days,Phrag,0,0,0
+Long Point,Water,2016,Herbicide,>20 days,Phragmites,0,0,0
+Long Point,Water,2016,Herbicide,>20 days,Pond,0,0,0
+Long Point,Water,2016,Herbicide,>20 days,Pond,0,0,0
+Long Point,Water,2016,Herbicide,>20 days,Pond,0,0,0
+Long Point,Water,2016,Herbicide,>20 days,0,0,0,0
+Rondeau,Water,2016,Herbicide,>20 days,Phragmites,7.00E-03,0,4.00E-03
+Rondeau,Water,2016,Herbicide,>20 days,Pond,0,0,0
+Rondeau,Water,2016,Herbicide,>20 days,Pond,0,0,0
+Rondeau,Water,2016,Herbicide,>20 days,Pond,0,0,0
+Rondeau,Water,2016,Herbicide,>20 days,0,0,0,0
+Big Creek,Water,2017,Herbicide,>20 days,0,0,0,0
+Big Creek,Water,2017,Herbicide,>20 days,Phragmites,0,0,0
+Crown Marsh,Water,2017,Herbicide,>20 days,0,0,0,0
+Crown Marsh,Water,2017,Herbicide,>20 days,Phragmites,0,0,0
+Turkey Point,Water,2017,Herbicide,>20 days,0,0,0,0
+Turkey Point,Water,2017,Herbicide,>20 days,Phragmites,0,0,0
+Crown Marsh,Water,2018,Herbicide,>20 days,0,0,0,0.055
+Crown Marsh,Water,2018,Herbicide,>20 days,Pond,0,0,0
+Crown Marsh,Water,2018,Herbicide,>20 days,Phragmites,0,0,0
+Long Point,Water,2016,Herbicide,24 hours,Phragmites,0.045,8.80E-03,0
+Long Point,Water,2016,Herbicide,24 hours,Pond,0.19,6.90E-03,4.00E-03
+Long Point,Water,2016,Herbicide,24 hours,Pond,0.19,4.10E-03,0
+Long Point,Water,2016,Herbicide,24 hours,Pond,0.27,8.30E-03,0
+Long Point,Water,2016,Herbicide,24 hours,0,0.13,7.10E-03,0
+Rondeau,Water,2016,Herbicide,24 hours,Phragmites,0.025,2.10E-03,0
+Rondeau,Water,2016,Herbicide,24 hours,Pond,0,0,0
+Rondeau,Water,2016,Herbicide,24 hours,Pond,0,0,0
+Rondeau,Water,2016,Herbicide,24 hours,Pond,6.50E-03,0,0
+Rondeau,Water,2016,Herbicide,24 hours,0,5.40E-03,0,0
+Big Creek,Water,2017,Herbicide,24 hours,0,0,0,0
+Big Creek,Water,2017,Herbicide,24 hours,Phragmites,4.56E-03,0,0
+Crown Marsh,Water,2017,Herbicide,24 hours,0,0.0194,0,0
+Crown Marsh,Water,2017,Herbicide,24 hours,Phragmites,0.0112,0,0
+Turkey Point,Water,2017,Herbicide,24 hours,0,0.0148,0,0
+Turkey Point,Water,2017,Herbicide,24 hours,Phragmites,7.84E-03,0,0
+Crown Marsh,Water,2018,Herbicide,24 hours,0,3.50E-03,0,0
+Crown Marsh,Water,2018,Herbicide,24 hours,Phragmites,6.30E-03,0,0
+Turkey Point,Water,2018,Herbicide,24 hours,0,0.018,0,0
+Turkey Point,Water,2018,Herbicide,24 hours,Phragmites,0.32,0.025,0.27
+Crown Marsh,Water,2018,Herbicide,24 hours,Pond,0.016,0,0
+Long Point,Water,2016,Herbicide,Pre-treatment,Phragmites,0,0,0
+Long Point,Water,2016,Herbicide,Pre-treatment,Pond,0,0,0
+Long Point,Water,2016,Herbicide,Pre-treatment,Pond,0,0,0
+Long Point,Water,2016,Herbicide,Pre-treatment,Pond,0,0,0
+Long Point,Water,2016,Herbicide,Pre-treatment,0,0,0,0
+Rondeau,Water,2016,Herbicide,Pre-treatment,Phragmites,0,0,0
+Rondeau,Water,2016,Herbicide,Pre-treatment,Pond,0,0,0
+Rondeau,Water,2016,Herbicide,Pre-treatment,Pond,0,0,0
+Rondeau,Water,2016,Herbicide,Pre-treatment,Pond,0,0,0
+Rondeau,Water,2016,Herbicide,Pre-treatment,0,0,0,0
+Big Creek,Water,2017,Herbicide,Pre-treatment,0,0,0,0
+Big Creek,Water,2017,Herbicide,Pre-treatment,Phragmites,0,0,0
+Crown Marsh,Water,2017,Herbicide,Pre-treatment,0,0,0,0
+Crown Marsh,Water,2017,Herbicide,Pre-treatment,Phragmites,0,0,0
+Turkey Point,Water,2017,Herbicide,Pre-treatment,0,0,0,0
+Turkey Point,Water,2017,Herbicide,Pre-treatment,Phragmites,0,0,0
+Crown Marsh,Water,2018,Herbicide,Pre-treatment,0m,0,0,0
+Crown Marsh,Water,2018,Herbicide,Pre-treatment,Phragmites,0,0,0
+Turkey Point,Water,2018,Herbicide,Pre-treatment,0m,0,0,0
+Turkey Point,Water,2018,Herbicide,Pre-treatment,Phragmites,0,0,0
+Crown Marsh,Water,2018,Herbicide,Pre-treatment,Pond,0,0,0
