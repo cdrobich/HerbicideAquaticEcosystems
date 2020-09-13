@@ -1,0 +1,66 @@
+Marsh,Sample,Year,Treatment,Time,Transect,Glyphosate,AMPA,AEH
+Turkey Point,Sediment,2018,Herbicide,>20 day,0,0,0.0125,0
+Turkey Point,Sediment,2018,Herbicide,>20 day,Phragmites,0.25,0.0125,0
+Long Point,Sediment,2016,Herbicide,>20 day,0,0.027,0,0
+Rondeau,Sediment,2016,Herbicide,>20 day,0,0,0,0
+Big Creek,Sediment,2017,Herbicide,>20 day,0,0,0,0
+Crown Marsh,Sediment,2017,Herbicide,>20 day,0,0,0,0
+Turkey Point,Sediment,2017,Herbicide,>20 day,0,0,0,0
+Long Point,Sediment,2016,Herbicide,>20 day,Phragmites,7.00E-03,0,0
+Rondeau,Sediment,2016,Herbicide,>20 day,Phragmites,0.23,0,6
+Big Creek,Sediment,2017,Herbicide,>20 day,Phragmites,0,0,0
+Crown Marsh,Sediment,2017,Herbicide,>20 day,Phragmites,0.0555,0,0
+Turkey Point,Sediment,2017,Herbicide,>20 day,Phragmites,0,0,0
+Long Point,Sediment,2016,Herbicide,>20 day,Pond,0.022,0,0
+Long Point,Sediment,2016,Herbicide,>20 day,Pond,0,0,0
+Long Point,Sediment,2016,Herbicide,>20 day,Pond,0.017,0,0
+Rondeau,Sediment,2016,Herbicide,>20 day,Pond,0,0,0
+Rondeau,Sediment,2016,Herbicide,>20 day,Pond,0,0,0
+Rondeau,Sediment,2016,Herbicide,>20 day,Pond,0,0,0
+Crown Marsh,Sediment,2018,Herbicide,>20 day,0,0,0,0
+Crown Marsh,Sediment,2018,Herbicide,>20 day,Phragmites,0.042,0,0
+Crown Marsh,Sediment,2018,Herbicide,>20 day,Pond,0,0,0
+Turkey Point,Sediment,2017,Control,24 hour,Phragmites,0.0201,0,0
+Long Point,Sediment,2016,Herbicide,24 hour,0,0.011,0,0
+Rondeau,Sediment,2016,Herbicide,24 hour,0,0,0,0
+Big Creek,Sediment,2017,Herbicide,24 hour,0,0,0,0
+Crown Marsh,Sediment,2017,Herbicide,24 hour,0,0.0109,0,0
+Turkey Point,Sediment,2017,Herbicide,24 hour,0,0.0166,0,0
+Long Point,Sediment,2016,Herbicide,24 hour,Phragmites,0.12,8.60E-03,1.4
+Rondeau,Sediment,2016,Herbicide,24 hour,Phragmites,0,0,0
+Big Creek,Sediment,2017,Herbicide,24 hour,Phragmites,0,0,0
+Crown Marsh,Sediment,2017,Herbicide,24 hour,Phragmites,0.0185,0,0
+Turkey Point,Sediment,2017,Herbicide,24 hour,Phragmites,0.0324,0,0
+Long Point,Sediment,2016,Herbicide,24 hour,Pond,0.11,0.01,0
+Long Point,Sediment,2016,Herbicide,24 hour,Pond,0.014,0,0
+Long Point,Sediment,2016,Herbicide,24 hour,Pond,0.028,0,0
+Rondeau,Sediment,2016,Herbicide,24 hour,Pond,0,0,0
+Rondeau,Sediment,2016,Herbicide,24 hour,Pond,0,0,0
+Rondeau,Sediment,2016,Herbicide,24 hour,Pond,0.066,0,0
+Crown Marsh,Sediment,2018,Herbicide,24 hour,0,0.0166,0,0
+Turkey Point,Sediment,2018,Herbicide,24 hour,0,0,0,0
+Crown Marsh,Sediment,2018,Herbicide,24 hour,Phragmites,0.0242,0,0
+Turkey Point,Sediment,2018,Herbicide,24 hour,Phragmites,0,0,1.2
+Crown Marsh,Sediment,2018,Herbicide,24 hour,Pond,0,0,0
+Turkey Point,Sediment,2017,Control,Pre-treatment,Phragmites,0,0,0
+Long Point,Sediment,2016,Herbicide,Pre-treatment,0,0,0,0
+Rondeau,Sediment,2016,Herbicide,Pre-treatment,0,0,0,0
+Big Creek,Sediment,2017,Herbicide,Pre-treatment,0,0,0,0
+Crown Marsh,Sediment,2017,Herbicide,Pre-treatment,0,0,0,0
+Turkey Point,Sediment,2017,Herbicide,Pre-treatment,0,0,0,0
+Crown Marsh,Sediment,2018,Herbicide,Pre-treatment,0,0,0,0
+Turkey Point,Sediment,2018,Herbicide,Pre-treatment,0,4.70E-03,0,0
+Crown Marsh,Sediment,2018,Herbicide,Pre-treatment,Phragmites,0,0,0
+Turkey Point,Sediment,2018,Herbicide,Pre-treatment,Phragmites,0.0383,0,0
+Long Point,Sediment,2016,Herbicide,Pre-treatment,Phragmites,0,0,0
+Rondeau,Sediment,2016,Herbicide,Pre-treatment,Phragmites,0,0,0
+Big Creek,Sediment,2017,Herbicide,Pre-treatment,Phragmites,0,0,0
+Crown Marsh,Sediment,2017,Herbicide,Pre-treatment,Phragmites,0,0,0
+Turkey Point,Sediment,2017,Herbicide,Pre-treatment,Phragmites,0.0155,0,0
+Long Point,Sediment,2016,Herbicide,Pre-treatment,Pond,0.014,0,0
+Long Point,Sediment,2016,Herbicide,Pre-treatment,Pond,0,0,0
+Long Point,Sediment,2016,Herbicide,Pre-treatment,Pond,0,0,0
+Rondeau,Sediment,2016,Herbicide,Pre-treatment,Pond,0,0,0
+Rondeau,Sediment,2016,Herbicide,Pre-treatment,Pond,0,0,0
+Rondeau,Sediment,2016,Herbicide,Pre-treatment,Pond,0,0,0
+Crown Marsh,Sediment,2018,Herbicide,Pre-treatment,Pond,0,0,0
