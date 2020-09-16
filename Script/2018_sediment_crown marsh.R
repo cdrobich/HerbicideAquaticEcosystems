@@ -31,7 +31,7 @@ SedPre <- ggplot(data = base, aes(x = Transect, y = Glyphosate, group = 1)) +
   theme_classic(base_size = 16) +
   theme(panel.border = element_rect(fill = NA)) +
   xlab(" ") +
-  ylab("[Glyphosate]in sediment (mg/L)") +
+  ylab("[Glyphosate]in sediment (mg/kg)") +
   ylim(0.00, 0.1) +
   theme(axis.text = element_text(size = 13),
         axis.text.x = element_text(angle = 45, vjust = 1, hjust = 1),
