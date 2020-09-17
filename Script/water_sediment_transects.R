@@ -195,7 +195,7 @@ GlyphSedPre <- ggplot(data = base, aes(x = Station, y = GlyphSed, group = 1)) +
   theme_classic(base_size = 16) +
   theme(panel.border = element_rect(fill = NA)) +
   xlab(" ") +
-  ylab("[Glyphosate]in sediment (mg/L)") +
+  ylab("[Glyphosate]in sediment (mg/kg)") +
   ylim(0.00, 0.2) +
   theme(axis.text = element_text(size = 13),
         axis.text.x = element_text(angle = 45, vjust = 1, hjust = 1),
@@ -211,7 +211,7 @@ AMPASedPre <- ggplot(data = base, aes(x = Station, y = AMPsed, group = 1)) +
   theme_classic(base_size = 16) +
   theme(panel.border = element_rect(fill = NA)) +
   xlab(" ") +
-  ylab("[AMPA]in sediment (mg/L)") +
+  ylab("[AMPA]in sediment (mg/kg)") +
   ylim(0.00, 0.05) +
   theme(axis.text = element_text(size = 13),
         axis.text.x = element_text(angle = 45, vjust = 1, hjust = 1),
@@ -351,7 +351,7 @@ grid.arrange(arrangeGrob(GlyphWatPre, GlyphSedPre , top = "Pre-treatment"),
              arrangeGrob(GlyphWatOneyr, GlyphSedOneyr, top = "One Year"),
              ncol = 4)
 
-
+# AMPA panel
 
 grid.arrange(arrangeGrob(AMPAWatPre, AMPASedPre , top = "Pre-treatment"),
              arrangeGrob(AMPAWat24, AMPASed24, top = "24 hours"),

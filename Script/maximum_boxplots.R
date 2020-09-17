@@ -97,7 +97,7 @@ basesed <- ggplot(base, aes(x = Year, y = Glyphosate)) +
 Sedb <- basesed + theme_classic(base_size = 16) +
   theme(panel.border = element_rect(fill = NA)) +
   xlab(" ") +
-  ylab("[Glyphosate]in sediment (mg/L)") +
+  ylab("[Glyphosate]in sediment (mg/kg)") +
   ylim(-0.01, 0.3)
 
 Sedb
@@ -111,7 +111,7 @@ AMPAb <- baseAMPA + theme_classic(base_size = 16) +
   ylim(0.00, 0.3) +
   theme(panel.border = element_rect(fill = NA)) +
   xlab(" ") +
-  ylab("[AMPA] in sediment (mg/L)") 
+  ylab("[AMPA] in sediment (mg/kg)") 
 
 AMPAb
 
@@ -126,7 +126,7 @@ baseAEH <- ggplot(base, aes(x = Year, y = AMPA)) +
   ylim(0.00, 2.0) +
   theme(panel.border = element_rect(fill = NA)) +
   xlab(" ") +
-  ylab("[Aquasurf] in sediment (mg/L)") 
+  ylab("[Aquasurf] in sediment (mg/kg)") 
 
 baseAEH
 
@@ -378,7 +378,7 @@ basew$Year <- as.factor(basew$Year)
 unique(basew$Time)
 
 
-## baseline glyphosate in sediment 
+## baseline glyphosate in water
 
 basewat <- ggplot(basew, aes(x = Year, y = Glyphosate)) +
   geom_boxplot()
