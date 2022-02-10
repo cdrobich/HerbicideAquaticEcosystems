@@ -91,14 +91,22 @@ unique(base$Time)
 
 ## baseline glyphosate in sediment 
 
-basesed <- ggplot(base, aes(x = Year, y = Glyphosate)) +
-  geom_boxplot()
-
-Sedb <- basesed + theme_classic(base_size = 16) +
+Sedb <- ggplot(base, aes(x = Year, y = Glyphosate)) +
+  geom_boxplot(colour = "white")+ 
+  theme_classic(base_size = 16) +
   theme(panel.border = element_rect(fill = NA)) +
   xlab(" ") +
-  ylab("[Glyphosate]in sediment (mg/kg)") +
-  ylim(-0.01, 0.3)
+  ylab(("[Glyphosate]in sediment (mg/kg)")) +
+  ylim(-0.01, 0.3) +
+  theme(axis.title.y = element_text(colour = "white"),
+        legend.title = element_blank(),
+        axis.text.y = element_text(colour = "white"),
+        axis.text.x = element_text(colour = "white"),
+        axis.line = element_line(colour = "white")) +
+  theme(panel.background = element_rect(
+    fill = 'black'),
+    plot.background = element_rect(fill = 'black'))
+
 
 Sedb
 
@@ -201,15 +209,21 @@ unique(maximum$Time)
 
 ## 24 hour glyphosate in sediment 
 
-maxsed <- ggplot(maximum, aes(x = Year, y = Glyphosate)) +
-  geom_boxplot() +
-  geom_jitter(position = position_jitter(0.2))
-
-Sed24 <- maxsed + theme_classic(base_size = 16) +
+Sed24 <- ggplot(maximum, aes(x = Year, y = Glyphosate)) +
+  geom_boxplot(colour = "white", fill = "black") +
+  theme_classic(base_size = 16) +
   theme(panel.border = element_rect(fill = NA)) +
   xlab(" ") +
   ylab(" ") +
-  ylim(-0.01, 0.3)
+  ylim(-0.01, 0.3) +
+  theme(legend.title = element_blank(),
+        axis.text.y = element_text(colour = "white"),
+        axis.text.x = element_text(colour = "white"),
+        axis.line = element_line(colour = "white")) +
+  theme(panel.background = element_rect(
+    fill = 'black'),
+    plot.background = element_rect(fill = 'black'))
+  
 
 Sed24
 
@@ -271,15 +285,21 @@ unique(month$Time)
 
 ## >20 days glyphosate in sediment 
 
-monthsed <- ggplot(month, aes(x = Year, y = Glyphosate)) +
-  geom_boxplot() +
-  geom_jitter(position = position_jitter(0.2))
-
-Sed30 <- monthsed + theme_classic(base_size = 16) +
+Sed30 <- ggplot(month, aes(x = Year, y = Glyphosate)) +
+  geom_boxplot(colour = "white", fill = "black") +
+  theme_classic(base_size = 16) +
   theme(panel.border = element_rect(fill = NA)) +
   xlab(" ") +
   ylab("") +
-  ylim(-0.01, 0.3)
+  ylim(-0.01, 0.3) +
+  theme(legend.title = element_blank(),
+        axis.text.y = element_text(colour = "white"),
+        axis.text.x = element_text(colour = "white"),
+        axis.line = element_line(colour = "white")) +
+  theme(panel.background = element_rect(
+    fill = 'black'),
+    plot.background = element_rect(fill = 'black'))
+
 
 Sed30
 
@@ -380,14 +400,21 @@ unique(basew$Time)
 
 ## baseline glyphosate in water
 
-basewat <- ggplot(basew, aes(x = Year, y = Glyphosate)) +
-  geom_boxplot()
-
-Watb <- basewat + theme_classic(base_size = 16) +
+Watb <- ggplot(basew, aes(x = Year, y = Glyphosate)) +
+  geom_boxplot(fill = "black", colour ="white")+
+  theme_classic(base_size = 16) +
   theme(panel.border = element_rect(fill = NA)) +
   xlab(" ") +
   ylab("[Glyphosate] in water (mg/L)") +
-  ylim(-0.01, 0.4)
+  ylim(-0.01, 0.4) +
+  theme(axis.title.y = element_text(colour = "white"),
+        legend.title = element_blank(),
+      axis.text.y = element_text(colour = "white"),
+      axis.text.x = element_text(colour = "white"),
+      axis.line = element_line(colour = "white")) +
+  theme(panel.background = element_rect(
+    fill = 'black'),
+    plot.background = element_rect(fill = 'black'))
 
 Watb
 
@@ -423,15 +450,20 @@ unique(maximumw$Time)
 
 ## glyphosate in water
 
-maxwat <- ggplot(maximumw, aes(x = Year, y = Glyphosate)) +
-  geom_boxplot() +
-  geom_jitter(position = position_jitter(0.2))
-
-Wat24 <- maxwat + theme_classic(base_size = 16) +
+Wat24 <- ggplot(maximumw, aes(x = Year, y = Glyphosate)) +
+  geom_boxplot(colour = "white", fill = "black") +
+  theme_classic(base_size = 16) +
   theme(panel.border = element_rect(fill = NA)) +
   xlab(" ") +
   ylab("") +
-  ylim(-0.01, 0.4)
+  ylim(-0.01, 0.4) +
+  theme(legend.title = element_blank(),
+        axis.text.y = element_text(colour = "white"),
+        axis.text.x = element_text(colour = "white"),
+        axis.line = element_line(colour = "white")) +
+  theme(panel.background = element_rect(
+    fill = 'black'),
+    plot.background = element_rect(fill = 'black'))
 
 Wat24
 
@@ -470,16 +502,22 @@ monthw
 
 unique(monthw$Time)
 
-## 24 hourglyphosate in sediment 
 
-monthwat <- ggplot(monthw, aes(x = Year, y = Glyphosate)) +
-  geom_boxplot()
 
-Wat30 <- monthwat + theme_classic(base_size = 16) +
+Wat30 <- ggplot(monthw, aes(x = Year, y = Glyphosate)) +
+  geom_boxplot(colour = "white") + 
+  theme_classic(base_size = 16) +
   theme(panel.border = element_rect(fill = NA)) +
   xlab(" ") +
   ylab("") +
-  ylim(-0.01, 0.4)
+  ylim(-0.01, 0.4) +
+  theme(legend.title = element_blank(),
+        axis.text.y = element_text(colour = "white"),
+        axis.text.x = element_text(colour = "white"),
+        axis.line = element_line(colour = "white")) +
+  theme(panel.background = element_rect(
+    fill = 'black'),
+    plot.background = element_rect(fill = 'black')) 
 
 Wat30
 
@@ -514,6 +552,29 @@ AEHw30
 # save panels 
 
 ##### panel #####
+library(ggpubr)
+library(patchwork)
+
+g1 + g2 + g3 +
+  plot_layout(nrow = 1, widths = c(1, 2, 1)) &
+  theme(plot.margin = unit(c(.2,.2,.2,.2), "cm")) &
+  plot_annotation(theme = theme(plot.background = element_rect(color  = 'blue', size = 2,linetype = 'dotted', fill ="ivory")))
+
+# for presentation with black background
+
+Watb + Wat24 + Wat30 +
+  plot_annotation(theme = theme(plot.background = element_rect(color  = 'black', 
+                                                               fill = "black")))
+
+Sedb + Sed24 + Sed30 +
+  plot_annotation(theme = theme(plot.background = element_rect(color  = 'black', 
+                                                               fill = "black")))
+
+
+
+
+
+
 
 # Glyphosate panel
 
